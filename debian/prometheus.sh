@@ -3,7 +3,7 @@
 #Declaracion de variables
 prometheus_imagen="prom/prometheus"
 prometheus_contenedor="prometheus-docker"
-prometheus_archivo="./myprometheus/prometheus.yml"
+prometheus_archivo="$HOME/myprometheus-startup-data"
 
 #Revisa si existe la imagen de prometheus
 if [ ! "$(docker images -q $prometheus_imagen)" ]; then

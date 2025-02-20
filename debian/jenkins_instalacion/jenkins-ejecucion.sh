@@ -2,9 +2,9 @@
 
 #Variables
 jenkins_network="jenkins"
-jenkins_image="myjenkins-blueocean:2.462.3-1"
+jenkins_image="myjenkins-blueocean:2.492.1"
 jenkins_contenedor="jenkins-blueocean"
-jenkins_directorio="$HOME/jenkins"
+jenkins_directorio="$HOME/myjenkins-startup-data"
 
 #Directorio para Jenkins
 mkdir -p "$jenkins_directorio"
